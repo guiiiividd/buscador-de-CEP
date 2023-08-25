@@ -7,7 +7,28 @@
     <title>Buscador de CEP</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Buscador de CEP</h1>
+
+        <form>
+            <label for="inputCEP">CEP</label>
+            <input type="text" name="inputCEP" id="inputCEP" placeholder="Insira o seu CEP">
+
+            <label for="inputEndereco">Endereço</label>
+            <input type="text" name="inputEndereco" id="inputEndereco" disabled>
+
+            <label for="inputBairro">Bairro</label>
+            <input type="text" name="inputBairro" id="inputBairro" disabled>
+
+            <label for="inputCidade">Cidade</label>
+            <input type="text" name="inputCidade" id="inputCidade" disabled>
+
+            <label for="inputUF">UF</label>
+            <input type="text" name="inputUF" id="inputUF" disabled>
+
+            <input type="submit" value="Buscar">
+        </form>
+    </main>
 
     <script src="./src/js/script.js"></script>
 </body>
